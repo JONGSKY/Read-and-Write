@@ -1,12 +1,14 @@
 # Chapter_1 : 소개, 코드 포매팅과 도구
-==================================================
+
 
 - Docstring : 소스 코드에 포함된 문서
 
 내가 작성한 코드에 doctring을 제공한다면 함수 사용자가 훨씬 수월하게 사용 방법을 익힐 수 있음
+
 객체에 docsting이 정의되어 있으면 __doc__ 속성을 통해 접근 가능
 
 - Sphinx(스핑크스) : 프로젝트 문서화를 위한 기본 골격 만드는 도구
+
 연습한 사이트 : file:///C:/Users/Administrator/workspace/clean_code/clean_code_in_python/chapter_1_소개,%20코드%20포매팅과%20도구/sphinx/_build/html/index.html
 
 개발자들끼리 소스코드 리뷰등을 통해 소스코드를 검토하지만 "문서화 리뷰"는 대게 하지 않는다.
