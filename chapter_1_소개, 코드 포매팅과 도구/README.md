@@ -7,7 +7,10 @@
 
 객체에 docsting이 정의되어 있으면 __doc__ 속성을 통해 접근 가능
 
-- Sphinx(스핑크스) : 프로젝트 문서화를 위한 기본 골격 만드는 도구
+단점 : 지속적으로 수작업을 해야함 (코드가 변경될 때마다 업데이트)
+
+
+- Sphinx(스핑크스) : 프로젝트 문서화를 위한 기본 골격 만드는 도구 (autodoc 익스텐션을 이용하면 docstring을 가져와 문서화된 페이지를 만들어줌)
 
 연습한 사이트 : file:///C:/Users/Administrator/workspace/clean_code/clean_code_in_python/chapter_1_소개,%20코드%20포매팅과%20도구/sphinx/_build/html/index.html
 
