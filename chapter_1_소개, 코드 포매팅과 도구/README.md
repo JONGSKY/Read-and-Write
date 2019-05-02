@@ -12,8 +12,6 @@
 
 - Sphinx(스핑크스) : 프로젝트 문서화를 위한 기본 골격 만드는 도구 (autodoc 익스텐션을 이용하면 docstring을 가져와 문서화된 페이지를 만들어줌)
 
-연습한 사이트 : file:///C:/Users/Administrator/workspace/clean_code/clean_code_in_python/chapter_1_소개,%20코드%20포매팅과%20도구/sphinx/_build/html/index.html
-
 개발자들끼리 소스코드 리뷰등을 통해 소스코드를 검토하지만 "문서화 리뷰"는 대게 하지 않는다.
 하지만 제품 개발이 완료되고 유지보수할 때 문서화된 자료가 아무것도 없다면 이는 유지보수에 큰 어려움이다.
 따라서 많이 사용하는 클래스, 함수는 스핑크스를 통해 문서화한다면 유지보수에 좋을 것이다.
