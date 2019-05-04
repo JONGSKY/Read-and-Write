@@ -1,0 +1,15 @@
+baseball_game!
+======================================
+.. automodule:: game
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+
+
+    -------
+
+
+    .. automodule:: game.baseball_game
+        :members:

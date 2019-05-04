@@ -1,0 +1,477 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="ko" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ko" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Lab_7 baseball.py 문서화(자동) &mdash; baseball_game 1.0 문서</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="색인" href="genindex.html" />
+    <link rel="search" title="검색" href="search.html" />
+    <link rel="prev" title="Lab_7 baseball.py 문서화(수동)" href="baseball_game_manual.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> baseball_game
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="baseball_game_manual.html">Lab_7 baseball.py 문서화(수동)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Lab_7 baseball.py 문서화(자동)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#baseball-game">baseball_game</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">baseball_game</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Lab_7 baseball.py 문서화(자동)</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/baseball_game_automatic.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-test_code.baseball_game">
+<span id="lab-7-baseball-py"></span><h1>Lab_7 baseball.py 문서화(자동)<a class="headerlink" href="#module-test_code.baseball_game" title="제목 주소">¶</a></h1>
+<div class="section" id="baseball-game">
+<h2>baseball_game<a class="headerlink" href="#baseball-game" title="제목 주소">¶</a></h2>
+<dl class="function">
+<dt id="test_code.baseball_game.get_not_duplicated_three_digit_number">
+<code class="descclassname">test_code.baseball_game.</code><code class="descname">get_not_duplicated_three_digit_number</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#test_code.baseball_game.get_not_duplicated_three_digit_number" title="정의 주소">¶</a></dt>
+<dd><dl class="simple">
+<dt>Input:</dt><dd><ul class="simple">
+<li><p>None : 입력값이 없음</p></li>
+</ul>
+</dd>
+<dt>Output:</dt><dd><ul class="simple">
+<li><p>중복되는 숫자가 없는 3자리 정수값을 램덤하게 생성하여 반환함
+정수값으로 문자열이 아님</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">예제</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">baseball_game</span> <span class="k">as</span> <span class="nn">bg</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">get_not_duplicated_three_digit_number</span><span class="p">()</span>
+<span class="go">125</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">get_not_duplicated_three_digit_number</span><span class="p">()</span>
+<span class="go">634</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">get_not_duplicated_three_digit_number</span><span class="p">()</span>
+<span class="go">583</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">get_not_duplicated_three_digit_number</span><span class="p">()</span>
+<span class="go">381</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="test_code.baseball_game.get_strikes_or_ball">
+<code class="descclassname">test_code.baseball_game.</code><code class="descname">get_strikes_or_ball</code><span class="sig-paren">(</span><em>user_input_number</em>, <em>random_number</em><span class="sig-paren">)</span><a class="headerlink" href="#test_code.baseball_game.get_strikes_or_ball" title="정의 주소">¶</a></dt>
+<dd><dl>
+<dt>Input:</dt><dd><ul class="simple">
+<li><p>user_input_number : 문자열값으로 사용자가 입력하는 세자리 정수</p></li>
+<li><p>random_number : 문자열값으로 컴퓨터가 자동으로 생성된 숫자</p></li>
+</ul>
+</dd>
+<dt>Output:</dt><dd><ul class="simple">
+<li><p>[strikes, ball] : 규칙에 따라 정수형 값인 strikes와 ball이 반환됨</p></li>
+</ul>
+<p>변환 규칙은 아래와 같음
+- 사용자가 입력한 숫자와 컴퓨터가 생성한 숫자의</p>
+<blockquote>
+<div><p>한 숫자와 자릿수가 모두 일치하면 1 Strike</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>자릿수는 다르나 입력한 한 숫자가 존재하면 1 Ball</p></li>
+<li><p>세자리 숫자를 정확히 입력하면 3 Strike</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">예제</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">baseball_game</span> <span class="k">as</span> <span class="nn">bg</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">get_strikes_or_ball</span><span class="p">(</span><span class="s2">&quot;123&quot;</span><span class="p">,</span> <span class="s2">&quot;472&quot;</span><span class="p">)</span>
+<span class="go">[0, 1]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">get_strikes_or_ball</span><span class="p">(</span><span class="s2">&quot;547&quot;</span><span class="p">,</span> <span class="s2">&quot;472&quot;</span><span class="p">)</span>
+<span class="go">[0, 2]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">get_strikes_or_ball</span><span class="p">(</span><span class="s2">&quot;247&quot;</span><span class="p">,</span> <span class="s2">&quot;472&quot;</span><span class="p">)</span>
+<span class="go">[0, 3]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">get_strikes_or_ball</span><span class="p">(</span><span class="s2">&quot;742&quot;</span><span class="p">,</span> <span class="s2">&quot;472&quot;</span><span class="p">)</span>
+<span class="go">[1, 2]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">get_strikes_or_ball</span><span class="p">(</span><span class="s2">&quot;472&quot;</span><span class="p">,</span> <span class="s2">&quot;472&quot;</span><span class="p">)</span>
+<span class="go">[3, 0]</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="test_code.baseball_game.is_between_100_and_999">
+<code class="descclassname">test_code.baseball_game.</code><code class="descname">is_between_100_and_999</code><span class="sig-paren">(</span><em>user_input_number</em><span class="sig-paren">)</span><a class="headerlink" href="#test_code.baseball_game.is_between_100_and_999" title="정의 주소">¶</a></dt>
+<dd><dl class="simple">
+<dt>Input:</dt><dd><ul class="simple">
+<li><dl class="simple">
+<dt>user_input_number<span class="classifier">문자열 값</span></dt><dd><p>입력된 값은 숫자형태의 문자열 값임이 보장된다.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+<dt>Output:</dt><dd><ul class="simple">
+<li><p>user_input_number가 정수로 변환하여 100이상 1000미만일 경우 True,
+그렇지 않을 경우는 False</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">예제</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">baseball_game</span> <span class="k">as</span> <span class="nn">bg</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_between_100_and_999</span><span class="p">(</span><span class="s2">&quot;551&quot;</span><span class="p">)</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_between_100_and_999</span><span class="p">(</span><span class="s2">&quot;103943&quot;</span><span class="p">)</span>
+<span class="go">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_between_100_and_999</span><span class="p">(</span><span class="s2">&quot;472&quot;</span><span class="p">)</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_between_100_and_999</span><span class="p">(</span><span class="s2">&quot;0&quot;</span><span class="p">)</span>
+<span class="go">False</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="test_code.baseball_game.is_digit">
+<code class="descclassname">test_code.baseball_game.</code><code class="descname">is_digit</code><span class="sig-paren">(</span><em>user_input_number</em><span class="sig-paren">)</span><a class="headerlink" href="#test_code.baseball_game.is_digit" title="정의 주소">¶</a></dt>
+<dd><dl class="simple">
+<dt>Input:</dt><dd><ul class="simple">
+<li><p>user_input_number : 문자열 값</p></li>
+</ul>
+</dd>
+<dt>Output:</dt><dd><ul class="simple">
+<li><p>user_input_number가 정수로 변환 가능할 경우는 True,
+그렇지 않을 경우는 False</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">예제</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">baseball_game</span> <span class="k">as</span> <span class="nn">bg</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_digit</span><span class="p">(</span><span class="s2">&quot;551&quot;</span><span class="p">)</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_digit</span><span class="p">(</span><span class="s2">&quot;103943&quot;</span><span class="p">)</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_digit</span><span class="p">(</span><span class="s2">&quot;472&quot;</span><span class="p">)</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_digit</span><span class="p">(</span><span class="s2">&quot;1032.203&quot;</span><span class="p">)</span>
+<span class="go">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_digit</span><span class="p">(</span><span class="s2">&quot;abc&quot;</span><span class="p">)</span>
+<span class="go">False</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="test_code.baseball_game.is_duplicated_number">
+<code class="descclassname">test_code.baseball_game.</code><code class="descname">is_duplicated_number</code><span class="sig-paren">(</span><em>three_digit</em><span class="sig-paren">)</span><a class="headerlink" href="#test_code.baseball_game.is_duplicated_number" title="정의 주소">¶</a></dt>
+<dd><dl>
+<dt>Input:</dt><dd><ul class="simple">
+<li><dl class="simple">
+<dt>three_digit<span class="classifier">문자열로 된 세자리 양의 정수 값</span></dt><dd><p>문자열로 된 세자리 양의 정수값의 입력이 보장된다.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+<dt>Output:</dt><dd><ul class="simple">
+<li><p>three_digit 정수로 변환하였을 경우 중복되는 수가 있으면 True,
+그렇지 않을 경우는 False</p></li>
+</ul>
+<p>ex) 117 - True, 123 - False, 103 - False, 113 - True</p>
+</dd>
+</dl>
+<p class="rubric">예제</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">baseball_game</span> <span class="k">as</span> <span class="nn">bg</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_duplicated_number</span><span class="p">(</span><span class="s2">&quot;551&quot;</span><span class="p">)</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_duplicated_number</span><span class="p">(</span><span class="s2">&quot;402&quot;</span><span class="p">)</span>
+<span class="go">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_duplicated_number</span><span class="p">(</span><span class="s2">&quot;472&quot;</span><span class="p">)</span>
+<span class="go">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_duplicated_number</span><span class="p">(</span><span class="s2">&quot;100&quot;</span><span class="p">)</span>
+<span class="go">True</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="test_code.baseball_game.is_no">
+<code class="descclassname">test_code.baseball_game.</code><code class="descname">is_no</code><span class="sig-paren">(</span><em>one_more_input</em><span class="sig-paren">)</span><a class="headerlink" href="#test_code.baseball_game.is_no" title="정의 주소">¶</a></dt>
+<dd><dl class="simple">
+<dt>Input:</dt><dd><ul class="simple">
+<li><p>one_more_input : 문자열값으로 사용자가 입력하는 문자</p></li>
+</ul>
+</dd>
+<dt>Output:</dt><dd><ul class="simple">
+<li><p>입력한 값이 대소문자 구분없이 &quot;N&quot; 또는 &quot;NO&quot;일 경우 True,
+그렇지 않을 경우 False를 반환함</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">예제</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">baseball_game</span> <span class="k">as</span> <span class="nn">bg</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_no</span><span class="p">(</span><span class="s2">&quot;Y&quot;</span><span class="p">)</span>
+<span class="go">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_no</span><span class="p">(</span><span class="s2">&quot;b&quot;</span><span class="p">)</span>
+<span class="go">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_no</span><span class="p">(</span><span class="s2">&quot;n&quot;</span><span class="p">)</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_no</span><span class="p">(</span><span class="s2">&quot;NO&quot;</span><span class="p">)</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_no</span><span class="p">(</span><span class="s2">&quot;nO&quot;</span><span class="p">)</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_no</span><span class="p">(</span><span class="s2">&quot;1234&quot;</span><span class="p">)</span>
+<span class="go">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_no</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span>
+<span class="go">False</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="test_code.baseball_game.is_validated_number">
+<code class="descclassname">test_code.baseball_game.</code><code class="descname">is_validated_number</code><span class="sig-paren">(</span><em>user_input_number</em><span class="sig-paren">)</span><a class="headerlink" href="#test_code.baseball_game.is_validated_number" title="정의 주소">¶</a></dt>
+<dd><dl class="simple">
+<dt>Input:</dt><dd><ul class="simple">
+<li><p>user_input_number : 문자열 값</p></li>
+</ul>
+</dd>
+<dt>Output:</dt><dd><ul class="simple">
+<li><dl class="simple">
+<dt>user_input_number 값이 아래 조건이면 True, 그렇지 않으면 False를 반환</dt><dd><ol class="arabic simple">
+<li><p>숫자형 문자열이며, 2) 100이상 1000미만이며, 3) 중복되는 숫자가 없을 경우</p></li>
+</ol>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">예제</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">baseball_game</span> <span class="k">as</span> <span class="nn">bg</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_validated_number</span><span class="p">(</span><span class="s2">&quot;amvd&quot;</span><span class="p">)</span>
+<span class="go">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_validated_number</span><span class="p">(</span><span class="s2">&quot;402&quot;</span><span class="p">)</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_validated_number</span><span class="p">(</span><span class="s2">&quot;472&quot;</span><span class="p">)</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_validated_number</span><span class="p">(</span><span class="s2">&quot;100&quot;</span><span class="p">)</span>
+<span class="go">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_validated_number</span><span class="p">(</span><span class="s2">&quot;1000&quot;</span><span class="p">)</span>
+<span class="go">False</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="test_code.baseball_game.is_yes">
+<code class="descclassname">test_code.baseball_game.</code><code class="descname">is_yes</code><span class="sig-paren">(</span><em>one_more_input</em><span class="sig-paren">)</span><a class="headerlink" href="#test_code.baseball_game.is_yes" title="정의 주소">¶</a></dt>
+<dd><dl class="simple">
+<dt>Input:</dt><dd><ul class="simple">
+<li><p>one_more_input : 문자열값으로 사용자가 입력하는 문자</p></li>
+</ul>
+</dd>
+<dt>Output:</dt><dd><ul class="simple">
+<li><p>입력한 값이 대소문자 구분없이 &quot;Y&quot; 또는 &quot;YES&quot;일 경우 True,
+그렇지 않을 경우 False를 반환함</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">예제</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">baseball_game</span> <span class="k">as</span> <span class="nn">bg</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_yes</span><span class="p">(</span><span class="s2">&quot;Y&quot;</span><span class="p">)</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_yes</span><span class="p">(</span><span class="s2">&quot;y&quot;</span><span class="p">)</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_yes</span><span class="p">(</span><span class="s2">&quot;Yes&quot;</span><span class="p">)</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_yes</span><span class="p">(</span><span class="s2">&quot;YES&quot;</span><span class="p">)</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_yes</span><span class="p">(</span><span class="s2">&quot;abc&quot;</span><span class="p">)</span>
+<span class="go">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_yes</span><span class="p">(</span><span class="s2">&quot;213&quot;</span><span class="p">)</span>
+<span class="go">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">bg</span><span class="o">.</span><span class="n">is_yes</span><span class="p">(</span><span class="s2">&quot;4562&quot;</span><span class="p">)</span>
+<span class="go">False</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="baseball_game_manual.html" class="btn btn-neutral float-left" title="Lab_7 baseball.py 문서화(수동)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, jong_sky
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
