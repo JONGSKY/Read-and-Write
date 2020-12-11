@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/40276516/101937110-c5cd7e00-3c24-11eb-91a3-46a1a7128d22.png)
 
-RNN : 
+RNN (Recurrent Neural Network): 
 <br>
 LSTM :
 <br>
