@@ -27,5 +27,8 @@
     <li>
       <a href="https://github.com/JONGSKY/Read-and-Write/tree/master/Introdcution_DL_point">핵심 딥러닝 입문: RNN, LSTM, GRU, VAE, GAN 구현</a>
     </li>
+    <li>
+      처음 배우는 데이터 과학
+    </li>
   </ol>
 </details>
