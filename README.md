@@ -22,7 +22,8 @@
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary><h2 style="display: inline-block">읽은 책 소개</h2></summary>
+  <summary>Table of books</summary>
+  <h2 style="display: inline-block">읽은 책 소개</h2>
   <ol>
     <li>
       <a href="https://github.com/JONGSKY/Read-and-Write/tree/master/Introdcution_DL_point">핵심 딥러닝 입문: RNN, LSTM, GRU, VAE, GAN 구현</a>
