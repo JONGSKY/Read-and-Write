@@ -1,3 +1,11 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
 <p align="center">
   <a href="https://github.com/JONGSKY/Read-and-Write">
     <img src="https://cdn.pixabay.com/photo/2016/01/27/04/32/books-1163695_960_720.jpg" alt="Logo" width="300" height="200">
