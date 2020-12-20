@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/40276516/101937110-c5cd7e00-3c24-11eb-91a3-46a1a7128d22.png)
 
-## 딥러닝 기술들
+## 딥러닝 기술
 
 ### RNN
 RNN (Recurrent Neural Network): 일반적인 신경망에 시간 방향으로의 연결 개념을 적용
