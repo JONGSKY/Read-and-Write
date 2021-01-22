@@ -14,4 +14,4 @@ GPU : 기억 셀이 없어 상대적으로 간단한 구조의 LSTM
 ### 생성 모델
 VAE (Variational Auto Encoder) : 데이터의 특징을 몇 개의 잠재 변수로 압축하고 복원
 <br>
-GAN (Generative Adversarial Networks) : 가짜를 만들어내는 생성자와 가짜를 식별하는 식별자가 서로 경쟁하도록 학습시켜 실제와 똑같은 데이터를 생성
+GAN (Generative Adversarial Networks) : 가짜를 만들어내는 생성자와 가짜를 식별하는 식별자가 서로 경쟁하도록 학습시켜 실제와 똑같은 데이터 생성
